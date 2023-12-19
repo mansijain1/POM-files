@@ -1,0 +1,19 @@
+{
+  "name": "pomfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/nightwatch": "^2.3.30",
+    "chromedriver": "^120.0.0",
+    "geckodriver": "^4.3.0",
+    "nightwatch": "^3.3.5",
+    "typescript": "^5.3.3"
+  }
+}
